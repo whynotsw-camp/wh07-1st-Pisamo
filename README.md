@@ -11,10 +11,10 @@ LG U+ Why Not SW Camp 7기 피사모  프로젝트 1 레포지토리 입니다.
     <th>이은영</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/" width="100"/></td>
-    <td><img src="https://github.com/" width="100"/></td>
-    <td><img src="https://github.com/" width="100"/></td>
-    <td><img src="https://github.com/" width="100"/></td>
+    <td><img src="https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%EB%BD%80.jpg" width="100"/></td>
+    <td><img src="https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%EB%B3%B4%EB%9D%BC%EB%8F%8C%EC%9D%B4.jpg" width="100"/></td>
+    <td><img src="https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%EB%9A%9C%EB%B9%84.jpg" width="100"/></td>
+    <td><img src="https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%EB%82%98%EB%82%98.jpg" width="100"/></td>
   </tr>
   <tr>
     <td>팀장</td>
