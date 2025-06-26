@@ -54,6 +54,7 @@ LG U+ Why Not SW Camp 7기 피사모  프로젝트 1 레포지토리 입니다.
 
 [프로젝트기획서(최종).pdf](https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C.pdf)
 </details>
+
 ## 1. 프로젝트 개요
 - 프로젝트 주제 : **감정기반 AI 심리상담 서비스**
 - 문제정의 : **많은 현대인들이 우울증을 겪고 있지만 사회적 인식과 심리치료에 부담감으로 실제로 치료로 이어지는 비율은 적음**
@@ -63,7 +64,10 @@ LG U+ Why Not SW Camp 7기 피사모  프로젝트 1 레포지토리 입니다.
 
 
 ### 프로젝트 기획서 다이어그램
+<details><summary>다이어그램
 </summary>
+
+  </details>
   --------------------------
 
 # 작업 분할 구조 (WBS)
