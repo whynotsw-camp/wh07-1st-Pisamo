@@ -1,33 +1,66 @@
 # wh07-1st-Pisamo
 LG U+ Why Not SW Camp 7기 피사모  프로젝트 1 레포지토리 입니다.
 
--------------------
-# 1차 프로젝트 예시 템플릿
--------------------
+# 🙋‍♂️🙋‍♀ 팀원 소개
+
+<table>
+  <tr>
+    <th>김지희</th>
+    <th>배형진</th>
+    <th>김다은</th>
+    <th>이은영</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/" width="100"/></td>
+    <td><img src="https://github.com/" width="100"/></td>
+    <td><img src="https://github.com/" width="100"/></td>
+    <td><img src="https://github.com/" width="100"/></td>
+  </tr>
+  <tr>
+    <td>팀장</td>
+    <td>발표자</td>
+    <td>리서처</td>
+    <td>기록자</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/">
+        <img src="https://img.shields.io/badge/GitHub-Link-black?logo=github&style=flat"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/bhjin97">
+        <img src="https://img.shields.io/badge/GitHub-Link-black?logo=github&style=flat"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/">
+        <img src="https://img.shields.io/badge/GitHub-Link-black?logo=github&style=flat"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/">
+        <img src="https://img.shields.io/badge/GitHub-Link-black?logo=github&style=flat"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+-------------------------------------------------------------
 
 # 프로젝트 기획서
+</summary>
 
 ## 1. 프로젝트 개요
-- 프로젝트 주제: **[주제]**
-- 목표: **데이터 기반 인사이트 도출 및 시각적 보고**
-  
-### 시각적 자료
-![프로젝트 기획서 다이어그램] ![Uploading image.png…](https://github.com/user-attachments/assets/06d3c48f-e8ff-46b4-afd2-2206c57a7099)
+- 프로젝트 주제 : **감정기반 ai 심리상담 서비스**
+- 문제정의 : **많은 현대인들이 우울증을 겪고 있지만 사회적 인식과 심리치료에 부담감으로 실제로 치료로 이어지는 비율은 적음**
+- 목표 : **챗봇을 통해 상담에 대한 접근성을 높이고, 누구나 손쉽게 감정 표현과 정서적 위로를 받을 수 있는 환경을 마련함과 동시에 실질적인 도움을 제공**
+
+---------------------------------------------------------------------------------------------
 
 
-
-## 2. 프로젝트 일정 (예시 Gantt 차트)
-![프로젝트 일정]
-| 작업 항목                  | 시작 날짜   | 종료 날짜   | 기간(일) |
-|---------------------------|------------|------------|---------|
-| 프로젝트 정의 및 계획 수립  | 2024-01-01 | 2024-01-07 | 7       |
-| 자료 조사 및 벤치마킹       | 2024-01-08 | 2024-01-14 | 7       |
-| 아이디어 도출 및 시나리오 작성 | 2024-01-15 | 2024-01-21 | 7       |
-| 요구사항 도출 및 WBS 작성   | 2024-01-22 | 2024-01-28 | 7       |
-| Prototype 개발 및 검토     | 2024-01-29 | 2024-02-04 | 7       |
-| 최종 검토 및 발표 준비     | 2024-02-05 | 2024-02-07 | 3       |
-| 프로젝트 발표              | 2024-02-08 | 2024-02-08 | 1       |
- 
+### 프로젝트 기획서 다이어그램
+</summary>
   --------------------------
 
 # 작업 분할 구조 (WBS)
