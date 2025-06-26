@@ -1,7 +1,7 @@
 # wh07-1st-Pisamo
 LG U+ Why Not SW Camp 7기 피사모  프로젝트 1 레포지토리 입니다.
 
-# 🙋‍♂️🙋‍♀ 팀원 소개
+# ⚡ 팀원 소개
 
 <table>
   <tr>
