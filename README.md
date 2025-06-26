@@ -64,10 +64,16 @@ LG U+ Why Not SW Camp 7기 피사모  프로젝트 1 레포지토리 입니다.
 
 
 ### 프로젝트 기획서 다이어그램
-<details><summary>다이어그램
+<details><summary>서비스 흐름도
 </summary>
-
+<img src="https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%EA%B0%90%EC%A0%95%EB%B6%84%EC%84%9D%20AI%20%EC%B1%97%EB%B4%87%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%ED%9D%90%EB%A6%84%EB%8F%84.jpg" />
   </details>
+
+  <details><summary>감정분석 AI 챗봇 시스템 흐름도
+</summary>
+<img src="https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%EA%B0%90%EC%A0%95%EB%B6%84%EC%84%9D%20AI%20%EC%B1%97%EB%B4%87%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%ED%9D%90%EB%A6%84%EB%8F%84.jpg" />
+  </details>
+  
   --------------------------
 
 # 작업 분할 구조 (WBS)
