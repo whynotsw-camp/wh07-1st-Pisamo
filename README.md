@@ -49,7 +49,10 @@ LG U+ Why Not SW Camp 7기 피사모  프로젝트 1 레포지토리 입니다.
 -------------------------------------------------------------
 
 # 프로젝트 기획서
+<details><summary>프로젝트 계획서
 </summary>
+
+[프로젝트기획서(최종).pdf](https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C.pdf)
 
 ## 1. 프로젝트 개요
 - 프로젝트 주제 : **감정기반 AI 심리상담 서비스**
