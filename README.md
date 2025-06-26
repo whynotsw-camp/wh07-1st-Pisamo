@@ -77,6 +77,9 @@ LG U+ Why Not SW Camp 7기 피사모  프로젝트 1 레포지토리 입니다.
   <details><summary>UI
     
 </summary>
+
+ </details>
+ 
   --------------------------
 
 # 작업 분할 구조 (WBS)
