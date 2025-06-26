@@ -140,8 +140,3 @@ LG U+ Why Not SW Camp 7기 피사모  프로젝트 1 레포지토리 입니다.
 
   
   <br>
-   
-## 📜문서
-
-<details><summary>프로젝트 계획서
-</summary>
