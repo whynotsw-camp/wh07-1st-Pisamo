@@ -24,7 +24,7 @@ LG U+ Why Not SW Camp 7기 피사모  프로젝트 1 레포지토리 입니다.
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/jihuikin45">
+      <a href="https://github.com/jihuikim45">
         <img src="https://img.shields.io/badge/GitHub-Link-black?logo=github&style=flat"/>
       </a>
     </td>
