@@ -118,6 +118,7 @@ LG U+ Why Not SW Camp 7기 피사모  프로젝트 1 레포지토리 입니다.
 [요구사항 정의서.pdf](https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20%EC%A0%95%EC%9D%98%EC%84%9C.pdf)
   
 </details>
+
 ----------------------------
 
 # 프로젝트 설계서
