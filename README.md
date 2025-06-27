@@ -90,7 +90,8 @@ LG U+ Why Not SW Camp 7기 피사모  프로젝트 1 레포지토리 입니다.
 
 <details><summary>WBS
 </summary>
-[WBS] (https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%ED%94%BC%EC%82%AC%EB%AA%A8%20WBS.xlsx)
+  <img src="https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%EC%B8%84%EB%9F%AC%EC%8A%A4%20%EC%9E%90%EB%A3%8C%EB%AA%A8%EC%9D%8C/WBS_6.png">
+  [WBS] (https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%ED%94%BC%EC%82%AC%EB%AA%A8%20WBS.xlsx)
 </details>
 
 ## 1. 단계별 작업 구성
