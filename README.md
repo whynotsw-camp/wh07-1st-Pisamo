@@ -88,8 +88,9 @@ LG U+ Why Not SW Camp 7기 피사모  프로젝트 1 레포지토리 입니다.
 
 # 작업 분할 구조 (WBS)
 
+<details>
 [WBS] (https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%ED%94%BC%EC%82%AC%EB%AA%A8%20WBS.xlsx)
-
+</details>
 
 ## 1. 단계별 작업 구성
 ### 1. 기획
