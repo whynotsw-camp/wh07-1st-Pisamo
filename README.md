@@ -127,28 +127,14 @@ LG U+ Why Not SW Camp 7기 피사모  프로젝트 1 레포지토리 입니다.
 
 ----------------------------
 
-# 프로젝트 설계서
+# 프로젝트 발표
 
-## 1. 시스템 아키텍처
-- **구성 요소**:
-  - 데이터 수집 모듈
-  - 데이터 전처리 모듈
-  - 데이터 분석 및 시각화 모듈
-
-## 2. 데이터 설계
-- **데이터 흐름**: 원천 데이터 → 전처리 → 분석 → 결과
-- **주요 데이터 속성**:
-  - 속성 이름: [예: user_id, timestamp, value]
-  - 데이터 유형: [정량, 정성]
-
-## 3. 기술 스택
-- **데이터 수집**: Python, Selenium, API 활용
-- **분석**: Pandas, NumPy, Scikit-learn
-- **시각화**: Matplotlib, Seaborn, Plotly
-
-## 4. 예상 문제 및 해결 방안
-- **문제**: 데이터 불균형  
-  **해결 방안**: SMOTE 기법 활용
+<details><summary>프로젝트 발표
+</summary>
+  
+[프로젝트 발표.pptx](https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%EC%B8%84%EB%9F%AC%EC%8A%A4%20%EC%9E%90%EB%A3%8C%EB%AA%A8%EC%9D%8C/%EC%B8%84!%EB%9F%AC%EC%8A%A4%EB%AF%B8_%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pptx)
+  
+</details>
 
   
   <br>
