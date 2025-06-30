@@ -88,31 +88,13 @@ LG U+ Why Not SW Camp 7기 피사모  프로젝트 1 레포지토리 입니다.
 
 # 작업 분할 구조 (WBS)
 
+ <img src="https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%EC%B8%84%EB%9F%AC%EC%8A%A4%20%EC%9E%90%EB%A3%8C%EB%AA%A8%EC%9D%8C/WBS_6.png">
+
 <details><summary>WBS
 </summary>
-  <img src="https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%EC%B8%84%EB%9F%AC%EC%8A%A4%20%EC%9E%90%EB%A3%8C%EB%AA%A8%EC%9D%8C/WBS_6.png">
+ 
   [WBS] (https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%ED%94%BC%EC%82%AC%EB%AA%A8%20WBS.xlsx)
 </details>
-
-## 1. 단계별 작업 구성
-### 1. 기획
-1.1. 문제 정의  
-1.2. 데이터 요구사항 정의  
-
-### 2. 데이터 수집 및 준비
-2.1. 데이터 소스 조사  
-2.2. 데이터 수집 및 저장  
-2.3. 데이터 전처리  
-
-### 3. 데이터 분석 및 모델링
-3.1. 데이터 탐색 및 시각화  
-3.2. 모델 선택 및 학습  
-3.3. 성능 평가  
-
-### 4. 결과 도출 및 보고
-4.1. 결과 요약  
-4.2. 보고서 작성  
-4.3. 최종 발표
 
   ------------------------------
 
