@@ -119,7 +119,7 @@ LG U+ Why Not SW Camp 7기 피사모  프로젝트 1 레포지토리 입니다.
   
 </details>
 
-## 프로토타입 구동 영상 (gpt 연동)
+## 프로토타입 구동 영상 (GPT-api 연동)
 [![츄러스미 시연영상](https://img.youtube.com/vi/K_wrcCBADBs/0.jpg)](https://youtu.be/K_wrcCBADBs)
 
   <br>
