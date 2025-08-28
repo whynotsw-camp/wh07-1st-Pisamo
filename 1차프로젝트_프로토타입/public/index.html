@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>츄!러스미</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    .header {
+      background: linear-gradient(90deg, #dbe6ff, #dcd7ff);
+      color: #333;
+      box-shadow: 0 1px 10px rgba(0, 0, 0, 0.08);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      height: 60px;
+      position: fixed; /*상단에 고정,기존 문서흐름에서 벗어남*/
+      top: 0;
+      left: 0; /* Changed from 60px to 0 */
+      right: 0;
+      z-index: 2;
+      }
+      .logo-icon {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+        }
+    .logo {
+      font-size: 30px;
+      font-weight: bold;
+      color: #722c35;
+      text-shadow: 1px 1px 0 #fff;
+    }
+    .profile {
+      background: #ddd;
+      border-radius: 20px;
+      padding: 5px 15px;
+      font-weight: bold;
+    }
+    .sidebar {
+      position: fixed;
+      left: 0;
+      top: 60px;
+      bottom: 0;
+      width: 60px;
+      background-color: #fffdf7;
+      box-shadow: 4px 0 8px rgba(0, 0, 0, 0.1);
+      transition: width 0.3s;
+      overflow: hidden; /*요소를 벗어나는 모든 콘텐츠를 잘라내어 보이지 않게*/
+
+    }
+    .sidebar:hover {
+      width: 200px;
+    }
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 20;
+      display: flex;
+      flex-direction: column;
+    }
+    .sidebar ul li {
+      padding: 20px;
+      border-bottom: 1px solid #ccc;
+      cursor: pointer;
+      white-space: nowrap; /* 글자 여려줄로 못가게 한줄로*/
+    }
+    .sidebar ul li span {
+      display: inline-block;
+      width: 0; /* 접은상태에서는 안보이게*/
+      overflow: hidden;
+      transition: width 0.3s;
+      
+    }
+    .sidebar:hover ul li span {
+      width: auto; /* 펼쳐지면 폭 자동*/
+      margin-left: 10px;
+      /* 사이드바 호버상태에서의 스팬(글씨)*/
+    }
+    #main, #chat, #recommend {
+      padding: 90px 30px 30px 90px;
+      /* 위랑 오른쪽 60px고려*/
+      flex: 1;
+      display: none;
+      /* 일단 셋다 화면에 안보이게*/
+    }
+    #main {
+      display: block;
+      /* override로 메인만 보이게설정*/
+    }
+    #main h2 {
+        text-align: center;
+        font-size: 3em;
+        background-image: linear-gradient(to right, #93CAEB, #434BF3); /* 원하는 그라데이션 색상과 방향으로 변경 가능 */
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+    .service-container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .service {
+      background: linear-gradient(to top, #95C4EF, #F9EDFF);
+      border-radius: 20px;
+      padding: 30px 20px;
+      width: 160px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+      cursor: pointer;
+    }
+    .service img {
+      width: 50px;
+      height: 50px;
+    }
+    .service p {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    #chat {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    #chat h2{
+        letter-spacing: 0.5px;
+        color: #a8b4e0;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+    }
+    .chat-container {
+      flex: 1;
+      overflow-y: auto; /*채팅 컨테이너가 y축 방향으로 자동 늘어나게*/
+      display:  flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+    }
+
+    .message {
+      max-width: 400px;
+      padding: 10px 15px;
+      margin: 10px 0;
+      border-radius: 10px;
+      display: inline-block;
+      white-space: pre-wrap; /*줄 바꾸기*/
+      word-break: break-word; /*하나의 단어도 줄바꿀 수 있음*/
+      line-height: 1.5;
+    }
+    .bot-message {
+      background: #eee;
+      /*봇 메세지는 디폴트 값인 flex-start*/
+    }
+    .user-message {
+      background: #d3e9fc;
+      align-self: flex-end;
+      /*주축방향의 끝으로 정렬*/
+    }
+    .input-box {
+      display: flex;
+      gap: 10px;
+      padding: 10px;
+      border-top: 1px solid #ccc;
+      background: #fff;
+    }
+    .input-box input {
+      flex: 1;
+      padding: 10px;
+      border-radius: 20px;
+      border: none;
+      font-size: 16px;
+    }
+    .hospital-info {
+      margin-top: 20px;
+    }
+    .hospital-icon {
+      width: 24px;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <img src="images/츄러스미.png" alt="츄러스미 로고" class="logo-icon" />
+    <span class="logo">츄!러스미</span>
+
+    <div class="profile">다은</div>
+  </div>
+
+  <div class="sidebar">
+    <ul>
+      <li onclick="goToMain()">🏠<span> 홈</span></li>
+      <li onclick="goToChat()">💬<span> 대화</span></li>
+      <li onclick="goToRecommend()">🏥<span> 병원</span></li>
+      <li>📊<span> 진단</span></li>
+      <li>🤝<span> 커뮤니티</span></li>
+    </ul>
+  </div>
+
+  <div id="main">
+    <h2>다은님, 반가워요!</h2>
+    <div class="service-container">
+      <div class="service" onclick="goToRecommend()">
+        <img src="https://img.icons8.com/ios/100/medical-doctor.png" alt="병원">
+        <p>병원 추천 서비스</p>
+      </div>
+      <div class="service" >
+        <img src="https://img.icons8.com/ios/100/conference-call.png" alt="커뮤니티">
+        <p>커뮤니티 서비스</p>
+      </div>
+      <div class="service">
+        <img src="https://img.icons8.com/ios/100/todo-list.png" alt="진단">
+        <p>진단 서비스</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="chat">
+    <h2>감정 대화</h2>
+    <div class="chat-container" id="chatBox"></div>
+    <div class="input-box">
+      <input id="chatInput" type="text" placeholder="오늘 기분은 어땠나요?">
+    </div>
+  </div>
+
+  <div id="recommend">
+    <h2><img class="hospital-icon" src="https://img.icons8.com/ios/50/hospital-room.png" alt="병원 아이콘">다은님 맞춤 병원 추천 서비스</h2>
+    <div class="hospital-info">
+      <strong>동작구 노량진</strong><br><br>
+      <strong>병원 리스트</strong><br>
+      상도의원  02-2608-8855<br>
+      서울특별시 동작구 노량진로17길 24 (상도동)<br><br>
+      <a href="#">더보기</a>
+    </div>
+  </div>
+
+  <script>
+    function goToMain() {
+      document.getElementById('main').style.display = 'block';
+      document.getElementById('recommend').style.display = 'none';
+    }
+
+    function goToChat() {
+      document.getElementById('main').style.display = 'none';
+      document.getElementById('chat').style.display = 'flex';
+      document.getElementById('recommend').style.display = 'none';
+    }
+
+    function goToRecommend() {
+      document.getElementById('main').style.display = 'none';
+      document.getElementById('chat').style.display = 'none';
+      document.getElementById('recommend').style.display = 'block';
+    }
+
+    const input = document.getElementById('chatInput');
+    const chatContainer = document.getElementById('chatBox');
+
+    input.addEventListener('keypress', function (e) {
+      if (e.key === 'Enter' && input.value.trim() !== '') {
+        goToChat();
+
+        const userMsg = input.value.trim();
+        input.value = '';
+        //메시지를 전송한 후, 입력 필드의 내용을 비워서 다음 메시지를 입력할 준비
+
+        const userBubble = document.createElement('div');
+        //새로운 HTML 상자(div)를 하나 만듬, 채팅 화면에 보일 내 메시지 말풍선
+        userBubble.className = 'message user-message';
+        //미리 정의된 CSS 그대로 사용가능
+        userBubble.innerText = userMsg;
+        //만든 상자 안에 내가 썼던 메시지 내용을 채움
+        chatContainer.appendChild(userBubble);
+        // 말풍선을 챗 컨테이너에 추가
+        chatContainer.scrollTop = chatContainer.scrollHeight;
+        //스크롤을 자동으로 맨 아래로
+        
+
+        // 🔽 여기에 GPT 연동 fetch 코드 추가 🔽
+      fetch('https://5217387dab82.ngrok-free.app/chat', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ message: userMsg })
+      })
+      .then(res => res.json()) // 답변을 json으로 변환
+      
+      // 사용자 말풍선과 동일하게 봇 말풍선 정의
+      .then(data => {
+        const botBubble = document.createElement('div');
+        botBubble.className = 'message bot-message';
+        botBubble.innerText = data.reply;
+        chatContainer.appendChild(botBubble);
+        chatContainer.scrollTop = chatContainer.scrollHeight;
+      })
+      .catch(err => {
+        console.error('Fetch 오류:', err);
+      });
+      }
+    });
+  </script>
+
+</body>
+</html>
+
