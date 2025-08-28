@@ -48,7 +48,7 @@ LG U+ Why Not SW Camp 7기 피사모 프로젝트의 첫 번째 레포지토리�
 </table>
 
 ---
-
+## 2. 프로젝트 기획
 🔗 **상세 기획서 바로가기:** [프로젝트 기획서](https://github.com/whynotsw-camp/wh07-1st-Pisamo/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C.pdf)
 
 
